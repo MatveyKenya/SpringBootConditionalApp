@@ -1,4 +1,4 @@
-package ru.matveykenya.springbootconditionalapp;
+package ru.matveykenya.springbootconditionalapp.profile;
 
 public class DevProfile implements SystemProfile {
     @Override

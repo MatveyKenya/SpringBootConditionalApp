@@ -1,8 +1,11 @@
-package ru.matveykenya.springbootconditionalapp;
+package ru.matveykenya.springbootconditionalapp.config;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import ru.matveykenya.springbootconditionalapp.profile.DevProfile;
+import ru.matveykenya.springbootconditionalapp.profile.ProductionProfile;
+import ru.matveykenya.springbootconditionalapp.profile.SystemProfile;
 
 
 @Configuration
