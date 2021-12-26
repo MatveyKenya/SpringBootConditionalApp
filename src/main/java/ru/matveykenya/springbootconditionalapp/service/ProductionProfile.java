@@ -1,8 +1,8 @@
-package ru.matveykenya.springbootconditionalapp.profile;
+package ru.matveykenya.springbootconditionalapp.service;
 
 public class ProductionProfile implements SystemProfile {
     @Override
     public String getProfile() {
-        return "Current profile is production";
+        return "Current service is production";
     }
 }

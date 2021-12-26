@@ -3,7 +3,7 @@ package ru.matveykenya.springbootconditionalapp.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.matveykenya.springbootconditionalapp.profile.SystemProfile;
+import ru.matveykenya.springbootconditionalapp.service.SystemProfile;
 
 @RestController
 @RequestMapping("/")
